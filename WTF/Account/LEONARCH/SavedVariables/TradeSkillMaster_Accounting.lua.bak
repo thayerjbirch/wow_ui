@@ -1,0 +1,58 @@
+
+TradeSkillMaster_AccountingDB = {
+	["r@Hyjal@saveTimeExpires"] = "",
+	["r@Hyjal@saveTimeCancels"] = "",
+	["_scopeKeys"] = {
+		["char"] = {
+			"Alkin - Hyjal", -- [1]
+		},
+		["realm"] = {
+			"Hyjal", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Hyjal", -- [1]
+		},
+	},
+	["r@Hyjal@saveTimeSales"] = "",
+	["r@Hyjal@csvBuys"] = "itemString,stackSize,quantity,price,seller,player,time,source",
+	["g@ @displayGreys"] = true,
+	["r@Hyjal@csvExpired"] = "itemString,stackSize,quantity,player,time",
+	["_hash"] = 16545233,
+	["r@Hyjal@csvIncome"] = "type,amount,source,player,time",
+	["r@Hyjal@csvCancelled"] = "itemString,stackSize,quantity,player,time",
+	["_currentProfile"] = {
+		["Alkin - Hyjal"] = "Default",
+	},
+	["g@ @autoTrackTrades"] = false,
+	["g@ @timeFormat"] = "ago",
+	["g@ @trackTrades"] = true,
+	["g@ @priceFormat"] = "avg",
+	["g@ @itemStrings"] = {
+		["Foreman's Blackjack"] = "i:16114",
+		["Brawler's Vest"] = "i:58245",
+		["Worn Battleaxe"] = "i:12282",
+		["Flamescarred Draconian Deflector"] = "i:122391",
+		["Bellower's Belt"] = "i:53357",
+		["Hearth Defender Bracers"] = "i:53373",
+		["Battleworn Thrash Blade"] = "i:122369",
+		["Hearthstone"] = "i:6948",
+		["Cactus Apple Surprise"] = "i:11584",
+		["Bragger's Gauntlets"] = "i:53360",
+	},
+	["r@Hyjal@trimmed"] = {
+	},
+	["g@ @displayTransfers"] = true,
+	["r@Hyjal@smartBuyPrice"] = false,
+	["g@ @mvSource"] = "dbmarket",
+	["r@Hyjal@goldGraphTimeframe"] = 30,
+	["r@Hyjal@goldLog"] = {
+		["Alkin"] = "startMinute,endMinute,copper\n24444120,24444120,0",
+	},
+	["r@Hyjal@saveTimeBuys"] = "",
+	["r@Hyjal@csvExpense"] = "type,amount,destination,player,time",
+	["_version"] = 2,
+	["r@Hyjal@csvSales"] = "itemString,stackSize,quantity,price,buyer,player,time,source",
+}

@@ -1,0 +1,85 @@
+VER 3 0100000000000006 "agony" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][] Agony
+END
+VER 3 0100000000000001 "corruption" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][] Immolate
+END
+VER 3 0100000000000005 "Dark Soul" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Dark Soul
+/use Turbulent Focusing Crystal
+END
+VER 3 0100000000000008 "Fear" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][] Fear
+END
+VER 3 010000000000000E "GrimService" "INV_MISC_QUESTIONMARK"
+/#showtooltip
+/use [talent: 7/3] Grimoire: Doomguard; Summon Doomguard
+END
+VER 3 0100000000000003 "Hand of Guldan" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][] Hand of Gul'dan
+END
+VER 3 0100000000000012 "Havoc" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][] Havoc
+END
+VER 3 0100000000000004 "MetaMove" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Metamorphosis
+/use [@mouseover,harm,nodead][] Shadow Bolt
+END
+VER 3 0100000000000009 "Seed of Corrupti" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][] Seed of Corruption
+END
+VER 3 0100000000000002 "Shadow Bolt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][] Shadow Bolt
+END
+VER 3 010000000000000D "Soul Haunt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Soulburn
+/use [@mouseover,harm,nodead][] Haunt
+END
+VER 3 010000000000000A "Soul Seed" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Soulburn
+/use [@mouseover,harm,nodead][] Seed of Corruption
+END
+VER 3 010000000000000B "Soul Soul Swap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Soulburn
+/use [@mouseover,harm,nodead][] Soul Swap
+END
+VER 3 010000000000000C "Soul Swap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][] Soul Swap
+END
+VER 3 0100000000000007 "Unstable" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][] Unstable Affliction
+END
+VER 3 0100000000000010 "warlock 30" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Shadowfury
+/use Mortal Coil
+/use Demonic Breath
+/run local G=GetSpellInfo SetMacroSpell("Tier2", G"Mortal Coil" or G"Shadowfury" or "Demonic Breath")
+ 
+END
+VER 3 010000000000000F "warlock 45 talen" "INV_MISC_QUESTIONMARK"
+/use Dark Bargain
+/use Sacrificial Pact
+/run local G=GetSpellInfo SetMacroSpell("Tier3", G"Sacrificial Pact" or G"Dark Bargain" or "Soul Link")
+END
+VER 3 0100000000000011 "warlock 60" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Burning Rush
+/use Unbound Will
+/use Blood Horror
+/run local G=GetSpellInfo SetMacroSpell("Tier4", G"Unbound Will" or G"Burning Rush" or "Blood Horror")
+END

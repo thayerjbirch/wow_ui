@@ -1,0 +1,31 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Hyjal.Alkin"] = {
+				["HistoryLastUpdate"] = 1466647216,
+				["QuestLinks"] = {
+					[2] = "|cffffff00|Hquest:25127:3|h[Sting of the Scorpid]|h|r",
+					[3] = "|cffffff00|Hquest:37446:4|h[Lazy Peons]|h|r",
+				},
+				["lastUpdate"] = 1466647214,
+				["History"] = {
+					[974] = 2097152,
+					[787] = 1048576,
+					[75] = 32768,
+					[786] = 715718721,
+				},
+				["HistoryBuild"] = "21742",
+				["Quests"] = {
+					"0|Valley of Trials", -- [1]
+					"1|0|50|0", -- [2]
+					"1|0|150|0", -- [3]
+				},
+				["HistorySize"] = 12,
+			},
+		},
+	},
+}

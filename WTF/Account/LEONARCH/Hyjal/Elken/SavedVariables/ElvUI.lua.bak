@@ -1,0 +1,29 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+	},
+	["ChatLog"] = {
+		["1469064813.017"] = {
+			"%s has earned the achievement |cffffff00|Hachievement:9670:Player-3661-0732097B:1:7:20:16:4294967295:4294967295:4294967295:4294967295|h[Toying Around]|h|r!", -- [1]
+			"Elken", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Elken", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			206, -- [11]
+			"Player-3661-0732097B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			nil, -- [18]
+			nil, -- [19]
+			"CHAT_MSG_GUILD_ACHIEVEMENT", -- [20]
+		},
+	},
+}

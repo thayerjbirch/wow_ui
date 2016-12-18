@@ -1,0 +1,30 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Hyjal.Alkin"] = {
+				["XPMax"] = 2100,
+				["played"] = 1981,
+				["isResting"] = false,
+				["lastUpdate"] = 1466647247,
+				["class"] = "Warrior",
+				["race"] = "Orc",
+				["level"] = 4,
+				["XP"] = 33,
+				["RestXP"] = 1100,
+				["money"] = 165,
+				["gender"] = 3,
+				["subZone"] = "Valley of Trials",
+				["name"] = "Alkin",
+				["faction"] = "Horde",
+				["englishRace"] = "Orc",
+				["zone"] = "Valley of Trials",
+				["lastLogoutTimestamp"] = 1466647247,
+				["englishClass"] = "WARRIOR",
+			},
+		},
+	},
+}

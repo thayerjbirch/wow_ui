@@ -1,0 +1,36 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["Reference"] = {
+			["Currencies"] = {
+				"Player vs. Player|", -- [1]
+				"Conquest Points|Interface\\Icons\\PVPCurrency-Conquest-Horde", -- [2]
+			},
+			["CurrencyTextRev"] = {
+				["Player vs. Player"] = 1,
+				["Conquest Points"] = 2,
+			},
+		},
+		["Characters"] = {
+			["Default.Hyjal.Alkin"] = {
+				["Currencies"] = {
+					3, -- [1]
+					4, -- [2]
+				},
+				["lastUpdate"] = 1466647214,
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[396] = "0-0-0-0",
+					[390] = "0-0-48200-0",
+					[823] = "0-0-0-0",
+					[392] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[824] = "0-0-0-0",
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,14 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Hyjal.Alkin"] = {
+				["faction"] = "Horde",
+			},
+		},
+	},
+}

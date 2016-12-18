@@ -1,0 +1,121 @@
+
+DataStore_TalentsDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Hyjal.Alkin"] = {
+				["GlyphList"] = {
+					11, -- [1]
+					7954, -- [2]
+					7906, -- [3]
+					14898, -- [4]
+					18898, -- [5]
+					12210, -- [6]
+					7986, -- [7]
+					18914, -- [8]
+					7858, -- [9]
+					17170, -- [10]
+					19010, -- [11]
+					7938, -- [12]
+					18930, -- [13]
+					7874, -- [14]
+					7762, -- [15]
+					18946, -- [16]
+					7826, -- [17]
+					18962, -- [18]
+					8146, -- [19]
+					18978, -- [20]
+					14914, -- [21]
+					8114, -- [22]
+					7922, -- [23]
+					18994, -- [24]
+					8034, -- [25]
+					12274, -- [26]
+					12258, -- [27]
+					8082, -- [28]
+					7794, -- [29]
+					12226, -- [30]
+					8130, -- [31]
+					12194, -- [32]
+					13, -- [33]
+					16324, -- [34]
+					7748, -- [35]
+					7844, -- [36]
+					15860, -- [37]
+					15844, -- [38]
+					7780, -- [39]
+					12244, -- [40]
+					7812, -- [41]
+					7732, -- [42]
+					17572, -- [43]
+					17588, -- [44]
+					13620, -- [45]
+					17604, -- [46]
+					17620, -- [47]
+				},
+			},
+		},
+		["Reference"] = {
+			["GlyphNames"] = {
+				[763] = "Death from Above",
+				[1073] = "Executor",
+				[767] = "Shield Wall",
+				[483] = "Mystic Shout",
+				[484] = "Bloodcurdling Shout",
+				[485] = "Long Charge",
+				[486] = "Gushing Wound",
+				[487] = "Unending Rage",
+				[488] = "Mighty Victory",
+				[489] = "Mortal Strike",
+				[490] = "Bloody Healing",
+				[491] = "Enraged Speed",
+				[492] = "Hindering Strikes",
+				[1184] = "Mocking Banner",
+				[1188] = "Flawless Defense",
+				[495] = "Rude Interruption",
+				[496] = "Gag Order",
+				[497] = "Blitz",
+				[499] = "Die by the Sword",
+				[931] = "Bull Rush",
+				[502] = "Shield Slam",
+				[1098] = "Raging Whirlwind",
+				[505] = "Sweeping Strikes",
+				[507] = "Resonating Power",
+				[508] = "Victory Rush",
+				[509] = "Raging Wind",
+				[762] = "Wind and Thunder",
+				[764] = "Victorious Throw",
+				[766] = "Spell Reflection",
+				[1020] = "Blazing Trail",
+				[1099] = "Subtle Defender",
+				[1182] = "Drawn Sword",
+				[1186] = "Rallying Cry",
+				[991] = "Burning Anger",
+				[1101] = "Weaponmaster",
+				[932] = "Recklessness",
+				[851] = "Thunder Strike",
+				[1100] = "Watchful Eye",
+				[765] = "Intimidating Shout",
+				[990] = "Crow Feast",
+				[1185] = "Raging Blow",
+				[1181] = "Cleave",
+				[1183] = "Heroic Leap",
+				[1187] = "Shattering Throw",
+				[494] = "Bloodthirst",
+			},
+		},
+	},
+}
+DataStore_TalentsRefDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["WARRIOR"] = {
+			["Locale"] = "enUS",
+			["Version"] = 21742,
+		},
+	},
+}

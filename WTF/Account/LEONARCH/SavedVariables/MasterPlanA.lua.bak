@@ -1,0 +1,9 @@
+
+MasterPlanAG = {
+	["Hyjal"] = {
+		["Alkin"] = {
+			["class"] = "WARRIOR",
+			["faction"] = "Horde",
+		},
+	},
+}

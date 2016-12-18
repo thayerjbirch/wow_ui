@@ -1,0 +1,490 @@
+
+TradeSkillMasterDB = {
+	["p@Default@inventoryTooltipFormat"] = "full",
+	["p@Default@tooltipPriceFormat"] = "text",
+	["g@ @customPriceSources"] = {
+	},
+	["p@Default@detailedDestroyTooltip"] = false,
+	["p@Default@pricePerUnit"] = true,
+	["p@Default@tooltipShowModifier"] = "none",
+	["p@Default@exportSubGroups"] = false,
+	["p@Default@groupFilterPrice"] = "dbmarket",
+	["f@Horde - Hyjal@pendingMail"] = {
+		["Alkin"] = {
+		},
+	},
+	["f@Horde - Hyjal@accountKey"] = "Hyjal1318046965",
+	["p@Default@minimapIcon"] = {
+		["minimapPos"] = 220,
+		["radius"] = 80,
+		["hide"] = false,
+	},
+	["p@Default@vendorBuyTooltip"] = true,
+	["g@ @auctionSaleSound"] = "TSM_NO_SOUND",
+	["p@Default@exportOperations"] = false,
+	["g@ @pendingAddonUpdate"] = {
+	},
+	["g@ @infoMessagesShown"] = {
+		["resetDesign"] = true,
+	},
+	["p@Default@defaultGroupTab"] = 2,
+	["f@Horde - Hyjal@syncMetadata"] = {
+		["TSM_INVENTORY"] = {
+			["Alkin"] = {
+				["lastUpdate"] = 1466647235,
+				["owner"] = "Hyjal1318046965",
+			},
+		},
+		["TSM_CHARACTERS"] = {
+			["Alkin"] = {
+				["lastUpdate"] = 1466647208,
+				["owner"] = "Hyjal1318046965",
+			},
+		},
+		["CRAFTING_PROFESSIONS"] = {
+		},
+	},
+	["p@Default@protectAH"] = false,
+	["c@Alkin - Hyjal@auctionMessages"] = {
+	},
+	["p@Default@cleanReagentBank"] = false,
+	["p@Default@groupTreeSelectedGroupStatus"] = {
+	},
+	["p@Default@auctionResultRows"] = 16,
+	["p@Default@design"] = {
+		["fonts"] = {
+			["content"] = "Fonts\\ARIALN.TTF",
+			["bold"] = "Interface\\Addons\\TradeSkillMaster\\Media\\DroidSans-Bold.ttf",
+		},
+		["edgeSize"] = 1.5,
+		["textColors"] = {
+			["iconRegion"] = {
+				["enabled"] = {
+					249, -- [1]
+					255, -- [2]
+					247, -- [3]
+					1, -- [4]
+				},
+			},
+			["title"] = {
+				["enabled"] = {
+					132, -- [1]
+					219, -- [2]
+					9, -- [3]
+					1, -- [4]
+				},
+			},
+			["label"] = {
+				["enabled"] = {
+					216, -- [1]
+					225, -- [2]
+					211, -- [3]
+					1, -- [4]
+				},
+				["disabled"] = {
+					150, -- [1]
+					148, -- [2]
+					140, -- [3]
+					1, -- [4]
+				},
+			},
+			["text"] = {
+				["enabled"] = {
+					255, -- [1]
+					254, -- [2]
+					250, -- [3]
+					1, -- [4]
+				},
+				["disabled"] = {
+					147, -- [1]
+					151, -- [2]
+					139, -- [3]
+					1, -- [4]
+				},
+			},
+			["link"] = {
+				["enabled"] = {
+					49, -- [1]
+					56, -- [2]
+					133, -- [3]
+					1, -- [4]
+				},
+			},
+		},
+		["fontSizes"] = {
+			["normal"] = 15,
+			["small"] = 12,
+			["medium"] = 13,
+		},
+		["frameColors"] = {
+			["frameBG"] = {
+				["backdrop"] = {
+					24, -- [1]
+					24, -- [2]
+					24, -- [3]
+					0.93, -- [4]
+				},
+				["border"] = {
+					50, -- [1]
+					50, -- [2]
+					50, -- [3]
+					1, -- [4]
+				},
+			},
+			["content"] = {
+				["backdrop"] = {
+					45, -- [1]
+					45, -- [2]
+					45, -- [3]
+					1, -- [4]
+				},
+				["border"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+				},
+			},
+			["frame"] = {
+				["backdrop"] = {
+					24, -- [1]
+					24, -- [2]
+					24, -- [3]
+					1, -- [4]
+				},
+				["border"] = {
+					100, -- [1]
+					100, -- [2]
+					100, -- [3]
+					0.3, -- [4]
+				},
+			},
+		},
+		["inlineColors"] = {
+			["link"] = {
+				153, -- [1]
+				255, -- [2]
+				255, -- [3]
+				1, -- [4]
+			},
+			["link2"] = {
+				153, -- [1]
+				255, -- [2]
+				255, -- [3]
+				1, -- [4]
+			},
+			["tooltip"] = {
+				130, -- [1]
+				130, -- [2]
+				250, -- [3]
+				1, -- [4]
+			},
+			["category"] = {
+				36, -- [1]
+				106, -- [2]
+				36, -- [3]
+				1, -- [4]
+			},
+			["category2"] = {
+				85, -- [1]
+				180, -- [2]
+				8, -- [3]
+				1, -- [4]
+			},
+		},
+	},
+	["p@Default@customPriceSourceTreeStatus"] = {
+	},
+	["g@ @bankUITab"] = "Warehousing",
+	["f@Horde - Hyjal@guildVaults"] = {
+	},
+	["p@Default@embeddedTooltip"] = true,
+	["p@Default@defaultAuctionTab"] = "Shopping",
+	["g@ @operations"] = {
+	},
+	["f@Horde - Hyjal@characterGuilds"] = {
+	},
+	["p@Default@importParentOnly"] = false,
+	["p@Default@cleanBags"] = false,
+	["p@Default@destroyValueSource"] = "dbmarket",
+	["p@Default@deTooltip"] = true,
+	["p@Default@keepInParent"] = true,
+	["p@Default@operations"] = {
+		["Mailing"] = {
+		},
+		["Auctioning"] = {
+		},
+		["Crafting"] = {
+		},
+		["TradeSkillMaster"] = {
+		},
+		["Shopping"] = {
+		},
+		["Warehousing"] = {
+		},
+	},
+	["g@ @optionsTreeStatus"] = {
+	},
+	["p@Default@gotoNewGroup"] = true,
+	["f@Horde - Hyjal@ignoreGuilds"] = {
+	},
+	["p@Default@items"] = {
+	},
+	["p@Default@tooltipOptions"] = {
+		["AuctionDB"] = {
+			["regionMinBuyout"] = false,
+			["regionHistorical"] = false,
+			["historical"] = false,
+			["regionSalePercent"] = true,
+			["minBuyout"] = true,
+			["regionMarketValue"] = true,
+			["regionSale"] = true,
+			["globalSale"] = false,
+			["globalHistorical"] = false,
+			["regionSoldPerDay"] = true,
+			["globalMinBuyout"] = false,
+			["globalMarketValue"] = false,
+			["_version"] = 2,
+			["marketValue"] = true,
+		},
+		["Auctioning"] = {
+			["operationPrices"] = false,
+		},
+		["Crafting"] = {
+			["matPrice"] = false,
+			["detailedMats"] = false,
+			["craftingCost"] = true,
+		},
+		["Accounting"] = {
+			["sale"] = true,
+			["expiredAuctions"] = false,
+			["cancelledAuctions"] = false,
+			["purchase"] = true,
+			["saleRate"] = false,
+		},
+		["Shopping"] = {
+			["maxPrice"] = false,
+		},
+	},
+	["p@Default@moveImportedItems"] = false,
+	["g@ @ignoreRandomEnchants"] = false,
+	["g@ @auctionSaleEnabled"] = true,
+	["g@ @moveDelay"] = 0,
+	["g@ @tsmItemTweetEnabled"] = true,
+	["p@Default@cleanBank"] = false,
+	["p@Default@inventoryViewerPriceSource"] = "dbmarket",
+	["_version"] = 5,
+	["g@ @chatFrame"] = "",
+	["g@ @customPriceTooltips"] = {
+	},
+	["g@ @frameStatus"] = {
+		["TSMDestroyingFrame"] = {
+			["y"] = 450,
+			["x"] = 850.000061035156,
+			["hasLoaded"] = true,
+			["height"] = 300,
+			["defaults"] = {
+				["y"] = 450,
+				["x"] = 850,
+				["height"] = 300,
+				["scale"] = 1,
+				["width"] = 300,
+			},
+			["scale"] = 1,
+			["width"] = 300,
+		},
+		["TSMCraftingGatherFrame"] = {
+			["y"] = 300,
+			["x"] = 100,
+			["height"] = 400,
+			["defaults"] = {
+				["y"] = 300,
+				["x"] = 100,
+				["height"] = 400,
+				["scale"] = 1,
+				["width"] = 500,
+			},
+			["scale"] = 1,
+			["width"] = 500,
+		},
+	},
+	["p@Default@vendorSellTooltip"] = true,
+	["g@ @vendorItems"] = {
+		["i:17194"] = 10,
+		["i:44854"] = 25,
+		["i:49908"] = 1500000,
+		["i:159"] = 25,
+		["i:27860"] = 6400,
+		["i:8343"] = 2000,
+		["i:10647"] = 2000,
+		["i:90146"] = 20000,
+		["i:4291"] = 500,
+		["i:30183"] = 700000,
+		["i:39354"] = 15,
+		["i:83092"] = 200000000,
+		["i:4340"] = 350,
+		["i:74854"] = 7000,
+		["i:39684"] = 9000,
+		["i:79740"] = 23,
+		["i:2594"] = 1500,
+		["i:17202"] = 10,
+		["i:40533"] = 50000,
+		["i:30817"] = 25,
+		["i:11291"] = 4500,
+		["i:4342"] = 2500,
+		["i:74832"] = 12000,
+		["i:58278"] = 16000,
+		["i:102539"] = 5000,
+		["i:2325"] = 1000,
+		["i:2604"] = 50,
+		["i:47556"] = 1250000,
+		["i:4399"] = 200,
+		["i:6260"] = 50,
+		["i:85583"] = 12000,
+		["i:102540"] = 5000,
+		["i:4537"] = 125,
+		["i:80433"] = 2000000,
+		["i:44499"] = 30000000,
+		["i:35948"] = 16000,
+		["i:62323"] = 60000,
+		["i:74852"] = 16000,
+		["i:67335"] = 445561,
+		["i:58265"] = 20000,
+		["i:46784"] = 25,
+		["i:44855"] = 25,
+		["i:45087"] = 1000000,
+		["i:2596"] = 120,
+		["i:5956"] = 18,
+		["i:7005"] = 82,
+		["i:4470"] = 38,
+		["i:35949"] = 8500,
+		["i:44501"] = 10000000,
+		["i:44500"] = 15000000,
+		["i:65892"] = 50000000,
+		["i:34412"] = 1000,
+		["i:38426"] = 30000,
+		["i:44853"] = 25,
+		["i:2324"] = 25,
+		["i:67319"] = 328990,
+		["i:6530"] = 100,
+		["i:46797"] = 25,
+		["i:85584"] = 17000,
+		["i:65893"] = 30000000,
+		["i:52188"] = 15000,
+		["i:85585"] = 27000,
+		["i:74659"] = 30000,
+		["i:10290"] = 2500,
+		["i:4341"] = 500,
+		["i:74845"] = 35000,
+		["i:4400"] = 2000,
+		["i:74851"] = 14000,
+		["i:2321"] = 100,
+		["i:2593"] = 150,
+		["i:23572"] = 500000,
+		["i:17196"] = 50,
+		["i:6261"] = 1000,
+		["i:14341"] = 5000,
+		["i:4289"] = 50,
+		["i:1179"] = 125,
+		["i:18567"] = 30000,
+		["i:2901"] = 81,
+		["i:2320"] = 10,
+		["i:74660"] = 15000,
+		["i:2595"] = 2000,
+		["i:2678"] = 10,
+		["i:3466"] = 2000,
+		["i:2605"] = 100,
+		["i:3857"] = 500,
+		["i:3371"] = 100,
+		["i:46796"] = 25,
+		["i:6217"] = 124,
+		["i:2880"] = 100,
+		["i:34249"] = 1000000,
+		["i:46793"] = 25,
+		["i:44835"] = 10,
+		["i:43102"] = 750000,
+	},
+	["_scopeKeys"] = {
+		["char"] = {
+			"Alkin - Hyjal", -- [1]
+		},
+		["realm"] = {
+			"Hyjal", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Hyjal", -- [1]
+		},
+	},
+	["f@Horde - Hyjal@bankUIGBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["g@ @auctionBuyEnabled"] = true,
+	["g@ @appMessageId"] = 0,
+	["g@ @globalOperations"] = false,
+	["p@Default@groupOperationTooltip"] = true,
+	["g@ @moduleOperationTabs"] = {
+	},
+	["p@Default@prospectTooltip"] = true,
+	["g@ @moduleOperationsTreeStatus"] = {
+	},
+	["f@Horde - Hyjal@bankUIBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["_hash"] = 8163356,
+	["_currentProfile"] = {
+		["Alkin - Hyjal"] = "Default",
+	},
+	["p@Default@auctionFrameMovable"] = true,
+	["p@Default@operationTooltips"] = {
+	},
+	["f@Horde - Hyjal@characters"] = {
+		["Alkin"] = "WARRIOR",
+	},
+	["p@Default@gotoNewCustomPriceSource"] = true,
+	["f@Horde - Hyjal@inventory"] = {
+		["Alkin"] = {
+			["reagentBank"] = {
+			},
+			["bag"] = {
+				["i:12282"] = 1,
+				["i:58245"] = 1,
+				["i:122369"] = 2,
+				["i:11584"] = 10,
+				["i:6948"] = 1,
+				["i:53373"] = 1,
+				["i:53360"] = 1,
+				["i:16114"] = 1,
+				["i:53357"] = 1,
+				["i:122391"] = 1,
+			},
+			["mail"] = {
+			},
+			["auction"] = {
+			},
+			["bank"] = {
+			},
+		},
+	},
+	["p@Default@auctionFrameScale"] = 1,
+	["p@Default@isBankui"] = true,
+	["c@Alkin - Hyjal@auctionPrices"] = {
+	},
+	["p@Default@groupTreeCollapsedStatus"] = {
+	},
+	["f@Horde - Hyjal@syncAccounts"] = {
+	},
+	["p@Default@savedThemes"] = {
+	},
+	["p@Default@millTooltip"] = true,
+	["p@Default@openAllBags"] = true,
+	["p@Default@groups"] = {
+	},
+	["p@Default@groupTreeStatus"] = {
+	},
+	["p@Default@transformTooltip"] = true,
+}

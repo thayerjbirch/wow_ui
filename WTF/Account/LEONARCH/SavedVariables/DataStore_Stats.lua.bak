@@ -1,0 +1,23 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Hyjal.Alkin"] = {
+				["lastUpdate"] = 1466647214,
+				["Stats"] = {
+					["Ranged"] = "0-1|0|0|0|21.71427154541",
+					["HealthMax"] = 496,
+					["Melee"] = "34-40|2.7200000286102|37|0|21.71427154541|0",
+					["MaxPower"] = "1|100",
+					["Defense"] = "58|1|3|23.498689651489|3|0",
+					["PVP"] = "0|0",
+					["Base"] = "37|10|31|7|12|58",
+					["Spell"] = "7|7|0|21.71427154541|14|0",
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,131 @@
+VER 3 0000000000000001 " " "INV_Misc_QuestionMark"
+#showtooltip
+/cast Immolate
+/cast Firebolt
+/cast Torment
+/cast Anguish
+END
+VER 3 0000000000000025 "Alani" "INV_MISC_QUESTIONMARK"
+/target Alani
+END
+VER 3 0000000000000011 "Alignment" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Incarnation: Chosen of Elune
+/cast Celestial Alignment
+END
+VER 3 0000000000000016 "damageMeters" "ABILITY_DRUID_MANGLE2"
+/skada toggle
+END
+VER 3 0000000000000015 "Diffuse" "INV_MISC_QUESTIONMARK"
+#showtooltip diffuse magic
+/stopcast
+/cast diffuse magic
+END
+VER 3 0000000000000019 "Druid 75 Talents" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use [talent:5/1]Incapacitating Roar;[talent:5/2]Ursol's Vortex;[@mouseover,harm,exists][@targettarget,harm][]Mighty Bash
+END
+VER 3 000000000000001A "Druid 90 Talents" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use [talent:6/1]Heart of the Wild;[talent:6/3]Nature's Vigil;Wrath
+END
+VER 3 0000000000000017 "fish stuff" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Worm Supreme
+/use Sharpened Fish Hook
+/use Shiny Bauble
+/use Bladebone Hook
+END
+VER 3 0000000000000027 "Fjarn" "INV_MISC_QUESTIONMARK"
+/run BuyMerchantItem(16)
+END
+VER 3 0000000000000007 "Focus Target" "Ability_Creature_Cursed_05"
+Focus = Target
+END
+VER 3 0000000000000018 "FoN > Harm" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,exists][]Force of Nature
+END
+VER 3 0000000000000003 "Frog Kisser" "INV_Misc_QuestionMark"
+/use Warts-B-Gone Lip Balm
+/kiss
+END
+VER 3 0000000000000006 "Gear" "Ability_Hunter_MasterMarksman"
+/ins
+END
+VER 3 000000000000001E "Judgment of Naru" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,exists][@target]Judgment of the Naaru
+END
+VER 3 0000000000000023 "Milling1" "INV_MISC_QUESTIONMARK"
+/run function FnH() for i=0,4 do for j=1,GetContainerNumSlots(i) do local t={GetItemInfo(GetContainerItemLink(i,j) or 0)} if t[7]=="Herb" and select(2,GetContainerItemInfo(i,j))>=5 then return i.." "..j,t[1] end end end end
+END
+VER 3 0000000000000024 "Milling2" "INV_MISC_QUESTIONMARK"
+/run local f,l,n=AuM or CreateFrame("Button","AuM",nil,"SecureActionButtonTemplate") f:SetAttribute("type","macro") l,n=FnH() if l then f:SetAttribute("macrotext","/cast Milling\n/use "..l) SetMacroItem("Milling2",n) end
+/click AuM
+END
+VER 3 0000000000000010 "mouseoverTaunt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover][target=focus,exists] [] Growl
+END
+VER 3 0000000000000012 "placeMarker" "132693"
+/wm 1
+END
+VER 3 000000000000000C "post" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
+/click TSMAuctioningPostButton
+/click TSM AuctioningCancelButton
+END
+VER 3 0000000000000009 "PotionStone" "INV_MISC_QUESTIONMARK"
+/showtooltip Healthstone
+/use Healthstone
+/use Primal Combatant's Emblem of Tenacity
+END
+VER 3 000000000000001C "Quests Toggle" "ACHIEVEMENT_GUILDPERK_HASTYHEARTH"
+/run if ObjectiveTrackerFrame:IsVisible() then ObjectiveTrackerFrame:Hide(); else ObjectiveTrackerFrame:Show(); end
+END
+VER 3 0000000000000014 "Salvage" "INV_MISC_QUESTIONMARK"
+#showtooltip Big Crate of Salvage
+/use Big Crate of Salvage
+/use Bag of Salvaged Goods
+/use Crate of Salvage
+END
+VER 3 0000000000000008 "setZoom" "INV_MISC_QUESTIONMARK"
+/console cameraDistanceMaxZoomFactor 2.6
+END
+VER 3 0000000000000002 "Shoot" "Ability_Hunter_SniperShot"
+/cast Hunter's Mark
+/cast [nomodifier] Auto Shot
+/cancelaura [modifier] Auto Shot
+/cast Bite
+END
+VER 3 000000000000001B "spirit" "INV_MISC_QUESTIONMARK"
+/run local b,s,p,n=UnitStat("player",5)print("Base: "..b,"Current: "..s,"Positive Buffs: "..p,"Negative Buffs: "..n)
+    
+END
+VER 3 0000000000000026 "Starlight Rose" "INV_MISC_QUESTIONMARK"
+/run BuyMerchantItem(17)
+END
+VER 3 0000000000000022 "Start Destroy" "INV_MISC_QUESTIONMARK"
+/run f=CreateFrame"Frame" t=GetTime() r=true f:SetScript("OnUpdate",if GetTime()>t and r then t=GetTime()+300 SendChatMessage("Trade message","CHANNEL",nil,GetChannelName("Trade - City")) end)
+END
+VER 3 0000000000000013 "Stats Priority" "132422"
+/raid Int>Spirit>Hastte>Mastery>Multi>Crit>Vers
+END
+VER 3 000000000000001D "Targeting Macro" "INV_MISC_QUESTIONMARK"
+/target tortured
+END
+VER 3 0000000000000004 "Trinket 1" "INV_Misc_QuestionMark"
+/use Cannoneer's Fuselighter
+/use Overlook Handguards
+END
+VER 3 0000000000000021 "TSMMacro" "Achievement_Faction_GoldenLotus"
+/click TSMShoppingCancelConfirmationButton
+/click TSMAuctioningCancelButton
+/click TSMCraftNextButton
+/click TSMShoppingBuyoutConfirmationButton
+/click TSMAuctioningPostButton
+/click TSMShoppingBuyoutButton
+/click TSMDestroyButton
+END

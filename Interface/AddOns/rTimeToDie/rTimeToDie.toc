@@ -1,0 +1,6 @@
+## Interface: 40000
+## Author: zork
+## Title: rTimeToDie
+## Notes: Calculates when the target is going to die.
+
+rTimeToDie.lua

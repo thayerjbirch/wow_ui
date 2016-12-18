@@ -1,0 +1,26 @@
+VER 3 0100000000000003 "entanglingMouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, harm, nodead][] Entangling Roots
+END
+VER 3 0100000000000001 "moonfireMouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead][] Moonfire
+END
+VER 3 0100000000000004 "mouseHeal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Healing Touch
+END
+VER 3 0100000000000006 "ohShit" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Bear Form
+/cast Renewal
+/cast Barkskin
+END
+VER 3 0100000000000005 "removeCorruption" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Remove Corruption
+END
+VER 3 0100000000000002 "sunfireMouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, harm, nodead][] Sunfire
+END

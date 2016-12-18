@@ -1,0 +1,13 @@
+
+DataStore_PetsDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Hyjal.Alkin"] = {
+				["lastUpdate"] = 1466647214,
+			},
+		},
+	},
+}

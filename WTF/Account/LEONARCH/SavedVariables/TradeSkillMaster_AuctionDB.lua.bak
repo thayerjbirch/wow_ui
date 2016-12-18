@@ -1,0 +1,34 @@
+
+TradeSkillMaster_AuctionDBDB = {
+	["g@ @showAHTab"] = true,
+	["g@ @scanDataEU"] = "",
+	["g@ @lastUpdateUS"] = 0,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Alkin - Hyjal", -- [1]
+		},
+		["realm"] = {
+			"Hyjal", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Hyjal", -- [1]
+		},
+	},
+	["g@ @helpPlatesShown"] = {
+	},
+	["r@Hyjal@scanData"] = "",
+	["r@Hyjal@lastPartialScan"] = 0,
+	["g@ @scanDataUS"] = "",
+	["_hash"] = 6312798,
+	["g@ @lastUpdateEU"] = 0,
+	["r@Hyjal@hasAppData"] = true,
+	["r@Hyjal@lastCompleteScan"] = 0,
+	["r@Hyjal@lastSaveTime"] = 0,
+	["_version"] = 2,
+	["_currentProfile"] = {
+		["Alkin - Hyjal"] = "Default",
+	},
+}

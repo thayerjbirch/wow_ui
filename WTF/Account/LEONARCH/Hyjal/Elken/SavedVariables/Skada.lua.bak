@@ -1,0 +1,192 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 6,
+		["interrupts"] = 0,
+		["power"] = {
+		},
+		["damage"] = 21996,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "DRUID",
+				["damaged"] = {
+				},
+				["auras"] = {
+				},
+				["power"] = {
+				},
+				["role"] = "NONE",
+				["time"] = 4,
+				["interrupts"] = 0,
+				["maxhp"] = 365760,
+				["overhealing"] = 0,
+				["healingspells"] = {
+				},
+				["damage"] = 21996,
+				["damagespells"] = {
+					["Moonfire"] = {
+						["min"] = 5448,
+						["hit"] = 4,
+						["totalhits"] = 4,
+						["id"] = 164812,
+						["max"] = 5650,
+						["damage"] = 21996,
+					},
+				},
+				["shielding"] = 0,
+				["damagetaken"] = 0,
+				["deathlog"] = {
+				},
+				["id"] = "Player-3661-0732097B",
+				["healing"] = 0,
+				["damagetakenspells"] = {
+				},
+				["healed"] = {
+				},
+				["alertDamage"] = 0,
+				["name"] = "Elken",
+				["alertCount"] = 0,
+				["ccbreaks"] = 0,
+				["dispells"] = 0,
+				["alert"] = {
+				},
+				["multistrikes"] = 0,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Dungeoneer's Training Dummy"] = {
+				["players"] = {
+					["Elken"] = {
+						["taken"] = 21996,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 21996,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["mobtaken"] = 21996,
+		["multistrikes"] = 0,
+		["healing"] = 0,
+		["overhealing"] = 0,
+		["shielding"] = 0,
+		["alertDamage"] = 0,
+		["starttime"] = 1469228575,
+		["name"] = "Total",
+		["alertCount"] = 0,
+		["damagetaken"] = 0,
+		["mobhdone"] = 0,
+		["last_action"] = 1469228575,
+		["mobdone"] = 0,
+	},
+	["sets"] = {
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 6,
+			["interrupts"] = 0,
+			["endtime"] = 1469228581,
+			["mobname"] = "Dungeoneer's Training Dummy",
+			["power"] = {
+			},
+			["damage"] = 21996,
+			["players"] = {
+				{
+					["last"] = 1469228581,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Dungeoneer's Training Dummy"] = 21996,
+					},
+					["auras"] = {
+					},
+					["role"] = "NONE",
+					["time"] = 4,
+					["interrupts"] = 0,
+					["power"] = {
+					},
+					["ccbreaks"] = 0,
+					["overhealing"] = 0,
+					["damage"] = 21996,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["min"] = 5448,
+							["hit"] = 4,
+							["totalhits"] = 4,
+							["id"] = 164812,
+							["max"] = 5650,
+							["damage"] = 21996,
+						},
+					},
+					["healingspells"] = {
+					},
+					["damagetaken"] = 0,
+					["shielding"] = 0,
+					["id"] = "Player-3661-0732097B",
+					["first"] = 1469228577,
+					["healing"] = 0,
+					["damagetakenspells"] = {
+					},
+					["healed"] = {
+					},
+					["alertDamage"] = 0,
+					["name"] = "Elken",
+					["alertCount"] = 0,
+					["dispells"] = 0,
+					["maxhp"] = 365760,
+					["alert"] = {
+					},
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Dungeoneer's Training Dummy"] = {
+					["players"] = {
+						["Elken"] = {
+							["taken"] = 21996,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 21996,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 21996,
+			["multistrikes"] = 0,
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["alertDamage"] = 0,
+			["starttime"] = 1469228575,
+			["name"] = "Dungeoneer's Training Dummy",
+			["alertCount"] = 0,
+			["damagetaken"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1469228575,
+			["mobdone"] = 0,
+		}, -- [1]
+	},
+}

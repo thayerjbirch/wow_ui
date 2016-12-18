@@ -1,0 +1,23 @@
+
+DataStore_ReputationsDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Hyjal.Alkin"] = {
+				["lastUpdate"] = 1466647214,
+				["Factions"] = {
+					[113] = 3100,
+					[7] = 5225,
+					[8] = 3100,
+					[10] = 400,
+					[9] = 500,
+					[6] = 3100,
+					[76] = 3500,
+					[78] = 3100,
+				},
+			},
+		},
+	},
+}

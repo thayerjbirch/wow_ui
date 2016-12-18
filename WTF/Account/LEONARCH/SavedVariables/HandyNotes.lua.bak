@@ -1,0 +1,19 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["profiles"] = {
+		["Alkin - Hyjal"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["profiles"] = {
+		["Alkin - Hyjal"] = {
+		},
+	},
+}

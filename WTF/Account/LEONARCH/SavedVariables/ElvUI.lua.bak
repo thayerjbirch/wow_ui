@@ -1,0 +1,36 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["gold"] = {
+		["Hyjal"] = {
+			["Alkin"] = 165,
+		},
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profiles"] = {
+		["Alkin - Hyjal"] = {
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFTElvUIParentBOTTOMLEFT4424",
+				["ShiftAB"] = "TOPLEFTElvUIParentBOTTOMLEFT41076",
+				["ElvUF_PartyMover"] = "BOTTOMLEFTElvUIParentBOTTOMLEFT4195",
+				["ElvUF_RaidMover"] = "TOPLEFTElvUIParentBOTTOMLEFT4427",
+				["ElvUF_RaidpetMover"] = "TOPLEFTElvUIParentBOTTOMLEFT4736",
+			},
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["profiles"] = {
+		["Alkin - Hyjal"] = {
+			["install_complete"] = "8.22",
+		},
+	},
+}

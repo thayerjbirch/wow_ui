@@ -1,0 +1,17 @@
+change.log for oTradechat
+
+v0.0.6  updated toc version for 6.0.2
+
+v0.0.5  otc messages can now be clicked to start a whisper to the speaker
+
+v0.0.4  fixed echo when multiple people in city
+
+v0.0.3  otc users in-town may talk w/ outside of city by typing '/otc <msg>'
+        was joining channels early and would grab channel 1; added wait to avoid this
+
+v0.0.2  changed behavior so people outside the city will not be relayed into trade
+        people outside can post to otc chat by typing '/otc <msg>'; ppl outside of city will see it
+
+v0.0.1  initial revision
+        in response to video stutter bug due to tradeforwarder conflicting with oQueue
+        http://us.battle.net/wow/en/forum/topic/13348865474

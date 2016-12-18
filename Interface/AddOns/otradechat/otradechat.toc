@@ -1,0 +1,17 @@
+## Title: oTradechat
+## Version: 0.0.6
+## Interface: 60000
+## Author: Tiny of the Zerg
+## Notes: realm wide tradechat
+## X-Category: PvP
+## X-Website: http://www.solidice.com/oqueue
+## DefaultState: enabled
+## X-Curse-Project-Name: oTradechat
+## X-Curse-Project-ID: otradechat
+## X-Curse-Packaged-Version: 0.0.6
+## SavedVariables: OTC_data
+
+locales\otradechat.en.lua
+
+otradechat.lua
+otradechat.xml

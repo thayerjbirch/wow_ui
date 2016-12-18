@@ -1,0 +1,75 @@
+VER 3 0100000000000015 "Fury of Elune" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Fury of Elune
+/use Moonlit Prism
+END
+VER 3 0100000000000013 "Incarnation" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Incarnation: Tree of Life
+END
+VER 3 010000000000000A "mouseBark" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][@focus,help,exists] []Ironbark
+END
+VER 3 0100000000000009 "mouseCure" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][@focus,help,exists] []Nature's Cure
+END
+VER 3 0100000000000011 "mouseCyclone" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists][target=focus,exists] [target=self] Cyclone
+END
+VER 3 010000000000000C "mouseFire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,exists][]Moonfire
+END
+VER 3 010000000000000D "mouseInnervate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus,exists] [@mouseover,help,exists] [@player] Innervate
+END
+VER 3 0100000000000014 "MouseoverSunfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,exists][]Sunfire
+END
+VER 3 0100000000000006 "mouseRegrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][@focus,help,exists] [] Regrowth
+END
+VER 3 0100000000000003 "mouseRejuv" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][@focus,help,exists] [] Rejuvenation
+END
+VER 3 0100000000000008 "mouseRoots" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists][target=focus,exists] [target=self] Entangling Roots
+END
+VER 3 0100000000000012 "mouseSooth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,exists][@focus,harm,exists][] Soothe
+END
+VER 3 0100000000000007 "mouseSwiftmend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][@focus,help,exists] [] Swiftmend
+END
+VER 3 0100000000000005 "mouseSwiftness" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][@focus,help,exists] []Cenarion Ward
+END
+VER 3 0100000000000004 "mouseTouch" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][@focus,help,exists] [] Healing Touch
+END
+VER 3 0100000000000010 "mouseWG" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists][target=focus,exists] [target=self]Wild Growth
+END
+VER 3 0100000000000001 "setBlom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/setfocus
+/cast [@mouseover,help,exists][@focus,help,exists] [] Lifebloom
+END
+VER 3 010000000000000F "tranq" "INV_MISC_QUESTIONMARK"
+#showtooltip Tranquility
+/use Heart of the WIld
+/use Tranquility
+END

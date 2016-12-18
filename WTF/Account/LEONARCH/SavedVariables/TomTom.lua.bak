@@ -1,0 +1,20 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Elken - Hyjal"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsMF = {
+	["profileKeys"] = {
+		["Elken - Hyjal"] = "Elken - Hyjal",
+	},
+	["profiles"] = {
+		["Elken - Hyjal"] = {
+		},
+	},
+}

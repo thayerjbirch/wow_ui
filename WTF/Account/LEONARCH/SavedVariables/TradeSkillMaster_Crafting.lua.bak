@@ -1,0 +1,73 @@
+
+TradeSkillMaster_CraftingDB = {
+	["f@Horde - Hyjal@gathering"] = {
+		["availableMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["extraMats"] = {
+		},
+		["destroyingMats"] = {
+		},
+		["selectedSources"] = {
+		},
+		["professions"] = {
+		},
+		["neededMats"] = {
+		},
+		["gatheredMats"] = false,
+		["selectedSourceStatus"] = {
+		},
+	},
+	["_scopeKeys"] = {
+		["char"] = {
+			"Alkin - Hyjal", -- [1]
+		},
+		["realm"] = {
+			"Hyjal", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Hyjal", -- [1]
+		},
+	},
+	["g@ @helpPlatesShown"] = {
+		["gatheringFrame"] = true,
+	},
+	["f@Horde - Hyjal@professionScanCache"] = {
+	},
+	["g@ @ignoreCharacters"] = {
+	},
+	["_hash"] = 16460334,
+	["g@ @frameQueueOpen"] = false,
+	["g@ @priceColumn"] = 1,
+	["f@Horde - Hyjal@crafts"] = {
+	},
+	["_currentProfile"] = {
+		["Alkin - Hyjal"] = "Default",
+	},
+	["f@Horde - Hyjal@mats"] = {
+	},
+	["g@ @ignoreCDCraftCost"] = true,
+	["g@ @questSmartCrafting"] = true,
+	["g@ @defaultCraftPriceMethod"] = "first(dbminbuyout, dbmarket)",
+	["f@Horde - Hyjal@disableCheckBox"] = false,
+	["g@ @showingDefaultFrame"] = false,
+	["g@ @ignoreGuilds"] = {
+	},
+	["f@Horde - Hyjal@ignoreDECheckBox"] = false,
+	["g@ @defaultMatCostMethod"] = "min(dbmarket, crafting, vendorbuy, convert(dbmarket))",
+	["g@ @queueSort"] = 1,
+	["f@Horde - Hyjal@ignoreIntermediate"] = false,
+	["f@Horde - Hyjal@ignoreAlts"] = false,
+	["f@Horde - Hyjal@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["f@Horde - Hyjal@playerProfessions"] = {
+	},
+	["_version"] = 1,
+	["g@ @profitPercent"] = 0,
+}

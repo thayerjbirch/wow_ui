@@ -1,0 +1,21 @@
+
+AskMrRobotDb2 = {
+	["char"] = {
+		["Alkin - Hyjal"] = {
+			["Logging"] = {
+				["LastZone"] = "Kalimdor",
+				["LastDiff"] = 0,
+			},
+		},
+	},
+	["global"] = {
+		["Region"] = "US",
+	},
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["profiles"] = {
+		["Alkin - Hyjal"] = {
+		},
+	},
+}

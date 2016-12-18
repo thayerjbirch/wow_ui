@@ -1,0 +1,11 @@
+## Interface: 60200
+## Title: Velhari Health Fix
+## OptionalDeps: Grid
+## X-Curse-Packaged-Version: 1.1
+## X-Curse-Project-Name: Velhari Health Fix
+## X-Curse-Project-ID: velhari-health-fix
+## X-Curse-Repository-ID: wow/velhari-health-fix/mainline
+
+Velhari_Health_Fix.lua
+
+

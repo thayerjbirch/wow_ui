@@ -1,0 +1,42 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Hyjal.Alkin"] = {
+				["lastUpdate"] = 1466647214,
+				["Containers"] = {
+					["Bag0"] = {
+						["ids"] = {
+							6948, -- [1]
+							122369, -- [2]
+							122391, -- [3]
+							58245, -- [4]
+							53360, -- [5]
+							12282, -- [6]
+							122369, -- [7]
+							53357, -- [8]
+							53373, -- [9]
+							11584, -- [10]
+							16114, -- [11]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["counts"] = {
+							[10] = 10,
+						},
+						["freeslots"] = 5,
+					},
+					["Bag-3"] = {
+						["size"] = 98,
+					},
+				},
+				["numFreeBagSlots"] = 5,
+				["numBagSlots"] = 16,
+			},
+		},
+		["Version"] = 1,
+	},
+}

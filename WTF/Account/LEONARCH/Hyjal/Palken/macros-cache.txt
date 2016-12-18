@@ -1,0 +1,26 @@
+VER 3 0100000000000004 " Holy Shock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists,help][]Holy Shock
+END
+VER 3 0100000000000003 "Avenger's Shield" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus,harm,exists][@target,harm,exists][@mouseover,harm,exists] Avenger's Shield;
+END
+VER 3 0100000000000006 "Cleanse" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0100000000000005 "Eternal Flame" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists,help][]Eternal Flame
+END
+VER 3 0100000000000002 "Flash of Light" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,exists][] Flash of Light;
+END
+VER 3 0100000000000001 "Justice" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:2/1,@mouseover,harm,exists][talent:2/1] Fist of Justice; [@mouseover,harm,exists][] Hammer of Justice;
+END
+VER 3 0100000000000007 "Light Martyr" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,exists][] Light of the Martyr
+END

@@ -1,0 +1,41 @@
+
+TradeSkillMaster_MailingDB = {
+	["g@ @sendDelay"] = 0.5,
+	["g@ @sendItemsIndividually"] = false,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Alkin - Hyjal", -- [1]
+		},
+		["realm"] = {
+			"Hyjal", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Hyjal", -- [1]
+		},
+	},
+	["g@ @helpPlatesShown"] = {
+	},
+	["_hash"] = 3711258,
+	["g@ @inboxMessages"] = true,
+	["g@ @defaultMailTab"] = true,
+	["f@Horde - Hyjal@deMailTarget"] = "",
+	["_currentProfile"] = {
+		["Alkin - Hyjal"] = "Default",
+	},
+	["g@ @resendDelay"] = 1,
+	["g@ @sendMessages"] = true,
+	["g@ @defaultPage"] = 1,
+	["g@ @deleteEmptyNPCMail"] = false,
+	["g@ @openMailSound"] = "TSM_NO_SOUND",
+	["g@ @displayMoneyCollected"] = true,
+	["c@Alkin - Hyjal@goldKeepAmount"] = 1000000,
+	["g@ @showReloadBtn"] = true,
+	["g@ @autoCheck"] = true,
+	["g@ @keepMailSpace"] = 0,
+	["g@ @deMaxQuality"] = 2,
+	["_version"] = 1,
+	["c@Alkin - Hyjal@goldMailTarget"] = "",
+}

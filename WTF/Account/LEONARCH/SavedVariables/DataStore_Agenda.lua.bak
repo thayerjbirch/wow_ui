@@ -1,0 +1,18 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 2,
+			["NextWeeklyReset"] = "2016-06-28",
+		},
+		["Characters"] = {
+			["Default.Hyjal.Alkin"] = {
+				["lastUpdate"] = 1466647236,
+			},
+		},
+	},
+}

@@ -1,0 +1,73 @@
+VER 3 010000000000000B "75Talent" "ABILITY_MONK_DAMPENHARM"
+#showtooltip
+#showicon
+/cast [talent: 5/2]Dampen Harm;[talent: 5/3] Diffuse Magic
+END
+VER 3 0100000000000007 "Cocoon" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][help][] Life Cocoon
+END
+VER 3 0100000000000009 "Detox" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][help][] Detox
+END
+VER 3 0100000000000008 "Enveloping" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][help][] Enveloping Mist
+END
+VER 3 0100000000000005 "Expel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][help][] Expel Harm
+END
+VER 3 010000000000000D "PotRevival" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Draenic Intellect Potion
+/use Revival
+END
+VER 3 0100000000000004 "Renewing" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][help][] Renewing Mist
+END
+VER 3 0100000000000001 "Soothing" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][help][] Soothing Mist
+END
+VER 3 0100000000000010 "Storm Earth Fire" "INV_MISC_QUESTIONMARK"
+#showtooltip Storm, Earth, and Fire
+/cast [target=mouseover] Storm, Earth, and Fire
+END
+VER 3 0100000000000006 "Surging" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][@targettarget,help,exists][] Surging Mist
+END
+VER 3 0100000000000003 "Thunder Renewing" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Thunder Focus Tea
+/cast [@mouseover,help,exists][help][] Renewing Mist
+END
+VER 3 0100000000000002 "Thunder Soothing" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Thunder Focus Tea
+/cast [@mouseover,help,exists][help][] Soothing Mist
+END
+VER 3 010000000000000F "Tiger's Lust" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists,help,nodead][@player]Tiger's Lust
+END
+VER 3 0100000000000012 "Touch of Karma" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,exists][@target] Touch of Karma
+END
+VER 3 0100000000000011 "Trinket Revival" "INV_MISC_QUESTIONMARK"
+#showtooltip Revival
+/use Intuition's Gift
+/use Revival
+END
+VER 3 010000000000000A "xeun" "MONK_STANCE_WHITETIGER"
+#showtooltip
+/cast [@mouseover,harm,exists][@target] Invoke Xuen, the White Tiger
+END
+VER 3 010000000000000C "Xuen/Transcend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:6/2]  Invoke Xuen, the White Tiger; Transcendence
+END

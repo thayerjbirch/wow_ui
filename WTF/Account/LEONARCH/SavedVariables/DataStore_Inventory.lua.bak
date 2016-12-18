@@ -1,0 +1,33 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Hyjal.Alkin"] = {
+				["Inventory"] = {
+					122245, -- [1]
+					nil, -- [2]
+					122372, -- [3]
+					nil, -- [4]
+					122381, -- [5]
+					nil, -- [6]
+					139, -- [7]
+					140, -- [8]
+					nil, -- [9]
+					nil, -- [10]
+					nil, -- [11]
+					nil, -- [12]
+					122361, -- [13]
+					122361, -- [14]
+					122260, -- [15]
+					122365, -- [16]
+				},
+				["averageItemLvl"] = 4.80000019073486,
+				["overallAIL"] = 5.5,
+				["lastUpdate"] = 1466647214,
+			},
+		},
+	},
+}

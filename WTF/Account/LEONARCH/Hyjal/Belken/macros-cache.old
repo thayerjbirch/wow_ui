@@ -1,0 +1,35 @@
+VER 3 0100000000000003 "Chain Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help][@focus,help,exists][@target][] Chain Heal
+END
+VER 3 0100000000000001 "Cooldowns" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Ascendance
+/cast Elemental Mastery
+/cast Berserking
+END
+VER 3 0100000000000005 "Flameshock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,exists][@target][] Flame Shock
+END
+VER 3 0100000000000004 "Healing Surge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help][@focus,help,exists][@target][] Healing Surge
+END
+VER 3 0100000000000008 "Hex" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead][] Hex
+END
+VER 3 0100000000000006 "Purify" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help][@focus,help,exists][@target][] Purify Spirit
+END
+VER 3 0100000000000002 "Riptide" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help][@focus,help,exists][@target][] Riptide
+END
+VER 3 0100000000000007 "Stormkeeper Bolt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Stormkeeper
+/cast Lightning Bolt
+END

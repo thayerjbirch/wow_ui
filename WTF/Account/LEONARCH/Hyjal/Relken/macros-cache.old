@@ -1,0 +1,8 @@
+VER 3 0100000000000001 "draenor mill" "INV_MISC_QUESTIONMARK"
+/cast Milling
+/use Gorgrond Flytrap
+/use Talador Orchid
+/use Nagrand Arrowbloom
+/use Fireweed
+/use Frostweed
+END

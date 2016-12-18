@@ -1,0 +1,12 @@
+tag 1.1
+b47831cb12d2854ca61a2a7db2d34e067e6b7639
+Bastien Clément <g@ledric.me>
+2016-07-27 23:47:56 +0200
+
+Tagging as 1.1
+
+
+--------------------
+
+Bastien Clément:
+	- Attempt a blind for Legion pre-patch

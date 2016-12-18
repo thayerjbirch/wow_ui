@@ -1,0 +1,24 @@
+------------------------------------------------------------------------
+r170 | Tuhljin | 2016-12-07 00:00:26 -0600 (Wed, 07 Dec 2016) | 4 lines
+Changed paths:
+   M /trunk/readme.txt
+
+v0.99.1
+- "Adventurer of Azsuna", "Adventurer of Val'sharah": Added "need to kill" reminders for the criteria that needed manual entry of mob IDs.
+- "Adventurer of Highmountain": Fixed incorrect "Recently spotted objective" text.
+- Suggestions Tab: Fix inconsistency with the filter where a complete achievement is considered incomplete if it was suggested because of a criteria (the criteria being specific to your location while the achievement's other criteria are for elsewhere) and that criteria is incomplete for the current character.
+------------------------------------------------------------------------
+r169 | Tuhljin | 2016-12-06 23:56:24 -0600 (Tue, 06 Dec 2016) | 1 line
+Changed paths:
+   M /trunk/AchieveID.lua
+   M /trunk/Options.lua
+   M /trunk/Overachiever.lua
+   M /trunk/Overachiever.toc
+   M /trunk/Overachiever_Tabs/Overachiever_Tabs.toc
+   M /trunk/Overachiever_Tabs/build.lua
+   M /trunk/Overachiever_Trade/Overachiever_Trade.toc
+   M /trunk/readme.txt
+
+
+------------------------------------------------------------------------
+

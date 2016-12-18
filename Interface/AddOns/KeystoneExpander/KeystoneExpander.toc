@@ -1,0 +1,8 @@
+## Interface: 70000
+## Title: KeystoneExpander
+## Notes: KeystoneExpander, replaces text in [Mythic Keystone] links, showing information without having to see the tooltip
+## Author: mfgmfg
+## Version: 0.2
+## SavedVariables: KeystoneExpander_ShowModifiers
+
+KeystoneExpander.lua

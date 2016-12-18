@@ -1,0 +1,33 @@
+
+TellMeWhenDB = {
+	["profileKeys"] = {
+		["Alkin - Hyjal"] = "Alkin - Hyjal",
+	},
+	["global"] = {
+		["TextLayouts"] = {
+			["icon1"] = {
+				{
+				}, -- [1]
+				{
+				}, -- [2]
+			},
+			["bar2"] = {
+				{
+				}, -- [1]
+				{
+				}, -- [2]
+			},
+		},
+	},
+	["Version"] = 74003,
+	["profiles"] = {
+		["Alkin - Hyjal"] = {
+			["Version"] = 74003,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1NQqAjLl7AA6",
+				}, -- [1]
+			},
+		},
+	},
+}
